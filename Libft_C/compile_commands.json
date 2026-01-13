@@ -1,0 +1,626 @@
+[
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "get_next_line/get_next_line.o", "get_next_line/get_next_line.c"],
+	"file": "get_next_line/get_next_line.c",
+	"output": "get_next_line/get_next_line.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "get_next_line/get_next_line_utils.o", "get_next_line/get_next_line_utils.c"],
+	"file": "get_next_line/get_next_line_utils.c",
+	"output": "get_next_line/get_next_line_utils.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_printf.o", "ft_printf/ft_printf.c"],
+	"file": "ft_printf/ft_printf.c",
+	"output": "ft_printf/ft_printf.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_printf_utils.o", "ft_printf/ft_printf_utils.c"],
+	"file": "ft_printf/ft_printf_utils.c",
+	"output": "ft_printf/ft_printf_utils.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strchr.o", "ft_printf/ft_strchr.c"],
+	"file": "ft_printf/ft_strchr.c",
+	"output": "ft_printf/ft_strchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strlcpy.o", "ft_printf/ft_strlcpy.c"],
+	"file": "ft_printf/ft_strlcpy.c",
+	"output": "ft_printf/ft_strlcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strlen.o", "ft_printf/ft_strlen.c"],
+	"file": "ft_printf/ft_strlen.c",
+	"output": "ft_printf/ft_strlen.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_substr.o", "ft_printf/ft_substr.c"],
+	"file": "ft_printf/ft_substr.c",
+	"output": "ft_printf/ft_substr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/put_any_fd.o", "ft_printf/put_any_fd.c"],
+	"file": "ft_printf/put_any_fd.c",
+	"output": "ft_printf/put_any_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isalnum.o", "is/ft_isalnum.c"],
+	"file": "is/ft_isalnum.c",
+	"output": "is/ft_isalnum.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isalpha.o", "is/ft_isalpha.c"],
+	"file": "is/ft_isalpha.c",
+	"output": "is/ft_isalpha.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isascii.o", "is/ft_isascii.c"],
+	"file": "is/ft_isascii.c",
+	"output": "is/ft_isascii.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isdigit.o", "is/ft_isdigit.c"],
+	"file": "is/ft_isdigit.c",
+	"output": "is/ft_isdigit.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isprint.o", "is/ft_isprint.c"],
+	"file": "is/ft_isprint.c",
+	"output": "is/ft_isprint.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstadd_back.o", "lst/ft_lstadd_back.c"],
+	"file": "lst/ft_lstadd_back.c",
+	"output": "lst/ft_lstadd_back.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstadd_front.o", "lst/ft_lstadd_front.c"],
+	"file": "lst/ft_lstadd_front.c",
+	"output": "lst/ft_lstadd_front.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstclear.o", "lst/ft_lstclear.c"],
+	"file": "lst/ft_lstclear.c",
+	"output": "lst/ft_lstclear.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstdelone.o", "lst/ft_lstdelone.c"],
+	"file": "lst/ft_lstdelone.c",
+	"output": "lst/ft_lstdelone.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstiter.o", "lst/ft_lstiter.c"],
+	"file": "lst/ft_lstiter.c",
+	"output": "lst/ft_lstiter.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstlast.o", "lst/ft_lstlast.c"],
+	"file": "lst/ft_lstlast.c",
+	"output": "lst/ft_lstlast.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstmap.o", "lst/ft_lstmap.c"],
+	"file": "lst/ft_lstmap.c",
+	"output": "lst/ft_lstmap.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstnew.o", "lst/ft_lstnew.c"],
+	"file": "lst/ft_lstnew.c",
+	"output": "lst/ft_lstnew.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstsize.o", "lst/ft_lstsize.c"],
+	"file": "lst/ft_lstsize.c",
+	"output": "lst/ft_lstsize.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_bzero.o", "mem/ft_bzero.c"],
+	"file": "mem/ft_bzero.c",
+	"output": "mem/ft_bzero.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_calloc.o", "mem/ft_calloc.c"],
+	"file": "mem/ft_calloc.c",
+	"output": "mem/ft_calloc.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memchr.o", "mem/ft_memchr.c"],
+	"file": "mem/ft_memchr.c",
+	"output": "mem/ft_memchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memcmp.o", "mem/ft_memcmp.c"],
+	"file": "mem/ft_memcmp.c",
+	"output": "mem/ft_memcmp.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memcpy.o", "mem/ft_memcpy.c"],
+	"file": "mem/ft_memcpy.c",
+	"output": "mem/ft_memcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memmove.o", "mem/ft_memmove.c"],
+	"file": "mem/ft_memmove.c",
+	"output": "mem/ft_memmove.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memset.o", "mem/ft_memset.c"],
+	"file": "mem/ft_memset.c",
+	"output": "mem/ft_memset.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putchar_fd.o", "put/ft_putchar_fd.c"],
+	"file": "put/ft_putchar_fd.c",
+	"output": "put/ft_putchar_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putendl_fd.o", "put/ft_putendl_fd.c"],
+	"file": "put/ft_putendl_fd.c",
+	"output": "put/ft_putendl_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putnbr_fd.o", "put/ft_putnbr_fd.c"],
+	"file": "put/ft_putnbr_fd.c",
+	"output": "put/ft_putnbr_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putstr_fd.o", "put/ft_putstr_fd.c"],
+	"file": "put/ft_putstr_fd.c",
+	"output": "put/ft_putstr_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_atoi.o", "str/ft_atoi.c"],
+	"file": "str/ft_atoi.c",
+	"output": "str/ft_atoi.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_itoa.o", "str/ft_itoa.c"],
+	"file": "str/ft_itoa.c",
+	"output": "str/ft_itoa.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_split.o", "str/ft_split.c"],
+	"file": "str/ft_split.c",
+	"output": "str/ft_split.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strchr.o", "str/ft_strchr.c"],
+	"file": "str/ft_strchr.c",
+	"output": "str/ft_strchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strdup.o", "str/ft_strdup.c"],
+	"file": "str/ft_strdup.c",
+	"output": "str/ft_strdup.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_striteri.o", "str/ft_striteri.c"],
+	"file": "str/ft_striteri.c",
+	"output": "str/ft_striteri.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strjoin.o", "str/ft_strjoin.c"],
+	"file": "str/ft_strjoin.c",
+	"output": "str/ft_strjoin.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlcat.o", "str/ft_strlcat.c"],
+	"file": "str/ft_strlcat.c",
+	"output": "str/ft_strlcat.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlcpy.o", "str/ft_strlcpy.c"],
+	"file": "str/ft_strlcpy.c",
+	"output": "str/ft_strlcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlen.o", "str/ft_strlen.c"],
+	"file": "str/ft_strlen.c",
+	"output": "str/ft_strlen.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strmapi.o", "str/ft_strmapi.c"],
+	"file": "str/ft_strmapi.c",
+	"output": "str/ft_strmapi.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strncmp.o", "str/ft_strncmp.c"],
+	"file": "str/ft_strncmp.c",
+	"output": "str/ft_strncmp.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strnstr.o", "str/ft_strnstr.c"],
+	"file": "str/ft_strnstr.c",
+	"output": "str/ft_strnstr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strrchr.o", "str/ft_strrchr.c"],
+	"file": "str/ft_strrchr.c",
+	"output": "str/ft_strrchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strtrim.o", "str/ft_strtrim.c"],
+	"file": "str/ft_strtrim.c",
+	"output": "str/ft_strtrim.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_substr.o", "str/ft_substr.c"],
+	"file": "str/ft_substr.c",
+	"output": "str/ft_substr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_tolower.o", "str/ft_tolower.c"],
+	"file": "str/ft_tolower.c",
+	"output": "str/ft_tolower.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_toupper.o", "str/ft_toupper.c"],
+	"file": "str/ft_toupper.c",
+	"output": "str/ft_toupper.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "get_next_line/get_next_line.o", "get_next_line/get_next_line.c"],
+	"file": "get_next_line/get_next_line.c",
+	"output": "get_next_line/get_next_line.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "get_next_line/get_next_line_utils.o", "get_next_line/get_next_line_utils.c"],
+	"file": "get_next_line/get_next_line_utils.c",
+	"output": "get_next_line/get_next_line_utils.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_printf.o", "ft_printf/ft_printf.c"],
+	"file": "ft_printf/ft_printf.c",
+	"output": "ft_printf/ft_printf.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_printf_utils.o", "ft_printf/ft_printf_utils.c"],
+	"file": "ft_printf/ft_printf_utils.c",
+	"output": "ft_printf/ft_printf_utils.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strchr.o", "ft_printf/ft_strchr.c"],
+	"file": "ft_printf/ft_strchr.c",
+	"output": "ft_printf/ft_strchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strlcpy.o", "ft_printf/ft_strlcpy.c"],
+	"file": "ft_printf/ft_strlcpy.c",
+	"output": "ft_printf/ft_strlcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_strlen.o", "ft_printf/ft_strlen.c"],
+	"file": "ft_printf/ft_strlen.c",
+	"output": "ft_printf/ft_strlen.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/ft_substr.o", "ft_printf/ft_substr.c"],
+	"file": "ft_printf/ft_substr.c",
+	"output": "ft_printf/ft_substr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "ft_printf/put_any_fd.o", "ft_printf/put_any_fd.c"],
+	"file": "ft_printf/put_any_fd.c",
+	"output": "ft_printf/put_any_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isalnum.o", "is/ft_isalnum.c"],
+	"file": "is/ft_isalnum.c",
+	"output": "is/ft_isalnum.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isalpha.o", "is/ft_isalpha.c"],
+	"file": "is/ft_isalpha.c",
+	"output": "is/ft_isalpha.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isascii.o", "is/ft_isascii.c"],
+	"file": "is/ft_isascii.c",
+	"output": "is/ft_isascii.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isdigit.o", "is/ft_isdigit.c"],
+	"file": "is/ft_isdigit.c",
+	"output": "is/ft_isdigit.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "is/ft_isprint.o", "is/ft_isprint.c"],
+	"file": "is/ft_isprint.c",
+	"output": "is/ft_isprint.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstadd_back.o", "lst/ft_lstadd_back.c"],
+	"file": "lst/ft_lstadd_back.c",
+	"output": "lst/ft_lstadd_back.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstadd_front.o", "lst/ft_lstadd_front.c"],
+	"file": "lst/ft_lstadd_front.c",
+	"output": "lst/ft_lstadd_front.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstclear.o", "lst/ft_lstclear.c"],
+	"file": "lst/ft_lstclear.c",
+	"output": "lst/ft_lstclear.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstdelone.o", "lst/ft_lstdelone.c"],
+	"file": "lst/ft_lstdelone.c",
+	"output": "lst/ft_lstdelone.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstiter.o", "lst/ft_lstiter.c"],
+	"file": "lst/ft_lstiter.c",
+	"output": "lst/ft_lstiter.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstlast.o", "lst/ft_lstlast.c"],
+	"file": "lst/ft_lstlast.c",
+	"output": "lst/ft_lstlast.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstmap.o", "lst/ft_lstmap.c"],
+	"file": "lst/ft_lstmap.c",
+	"output": "lst/ft_lstmap.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstnew.o", "lst/ft_lstnew.c"],
+	"file": "lst/ft_lstnew.c",
+	"output": "lst/ft_lstnew.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "lst/ft_lstsize.o", "lst/ft_lstsize.c"],
+	"file": "lst/ft_lstsize.c",
+	"output": "lst/ft_lstsize.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_bzero.o", "mem/ft_bzero.c"],
+	"file": "mem/ft_bzero.c",
+	"output": "mem/ft_bzero.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_calloc.o", "mem/ft_calloc.c"],
+	"file": "mem/ft_calloc.c",
+	"output": "mem/ft_calloc.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memchr.o", "mem/ft_memchr.c"],
+	"file": "mem/ft_memchr.c",
+	"output": "mem/ft_memchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memcmp.o", "mem/ft_memcmp.c"],
+	"file": "mem/ft_memcmp.c",
+	"output": "mem/ft_memcmp.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memcpy.o", "mem/ft_memcpy.c"],
+	"file": "mem/ft_memcpy.c",
+	"output": "mem/ft_memcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memmove.o", "mem/ft_memmove.c"],
+	"file": "mem/ft_memmove.c",
+	"output": "mem/ft_memmove.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "mem/ft_memset.o", "mem/ft_memset.c"],
+	"file": "mem/ft_memset.c",
+	"output": "mem/ft_memset.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putchar_fd.o", "put/ft_putchar_fd.c"],
+	"file": "put/ft_putchar_fd.c",
+	"output": "put/ft_putchar_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putendl_fd.o", "put/ft_putendl_fd.c"],
+	"file": "put/ft_putendl_fd.c",
+	"output": "put/ft_putendl_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putnbr_fd.o", "put/ft_putnbr_fd.c"],
+	"file": "put/ft_putnbr_fd.c",
+	"output": "put/ft_putnbr_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "put/ft_putstr_fd.o", "put/ft_putstr_fd.c"],
+	"file": "put/ft_putstr_fd.c",
+	"output": "put/ft_putstr_fd.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_atoi.o", "str/ft_atoi.c"],
+	"file": "str/ft_atoi.c",
+	"output": "str/ft_atoi.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_itoa.o", "str/ft_itoa.c"],
+	"file": "str/ft_itoa.c",
+	"output": "str/ft_itoa.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_split.o", "str/ft_split.c"],
+	"file": "str/ft_split.c",
+	"output": "str/ft_split.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strchr.o", "str/ft_strchr.c"],
+	"file": "str/ft_strchr.c",
+	"output": "str/ft_strchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strdup.o", "str/ft_strdup.c"],
+	"file": "str/ft_strdup.c",
+	"output": "str/ft_strdup.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_striteri.o", "str/ft_striteri.c"],
+	"file": "str/ft_striteri.c",
+	"output": "str/ft_striteri.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strjoin.o", "str/ft_strjoin.c"],
+	"file": "str/ft_strjoin.c",
+	"output": "str/ft_strjoin.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlcat.o", "str/ft_strlcat.c"],
+	"file": "str/ft_strlcat.c",
+	"output": "str/ft_strlcat.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlcpy.o", "str/ft_strlcpy.c"],
+	"file": "str/ft_strlcpy.c",
+	"output": "str/ft_strlcpy.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strlen.o", "str/ft_strlen.c"],
+	"file": "str/ft_strlen.c",
+	"output": "str/ft_strlen.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strmapi.o", "str/ft_strmapi.c"],
+	"file": "str/ft_strmapi.c",
+	"output": "str/ft_strmapi.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strncmp.o", "str/ft_strncmp.c"],
+	"file": "str/ft_strncmp.c",
+	"output": "str/ft_strncmp.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strnstr.o", "str/ft_strnstr.c"],
+	"file": "str/ft_strnstr.c",
+	"output": "str/ft_strnstr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strrchr.o", "str/ft_strrchr.c"],
+	"file": "str/ft_strrchr.c",
+	"output": "str/ft_strrchr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_strtrim.o", "str/ft_strtrim.c"],
+	"file": "str/ft_strtrim.c",
+	"output": "str/ft_strtrim.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_substr.o", "str/ft_substr.c"],
+	"file": "str/ft_substr.c",
+	"output": "str/ft_substr.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_tolower.o", "str/ft_tolower.c"],
+	"file": "str/ft_tolower.c",
+	"output": "str/ft_tolower.o"
+},
+{
+	"directory": "/home/tlamit/Documents/TC/Push_Swap/Libft_C",
+	"arguments": ["cc", "-Wall", "-Wextra", "-Werror", "-c", "-o", "str/ft_toupper.o", "str/ft_toupper.c"],
+	"file": "str/ft_toupper.c",
+	"output": "str/ft_toupper.o"
+}
+]
