@@ -6,26 +6,50 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:15:12 by tlamit            #+#    #+#             */
-/*   Updated: 2026/01/13 18:50:37 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/01/14 18:18:38 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
 
-void	handler(int sig)
+static void	handler(int sig, siginfo_t *info, void *context)
 {
+	static unsigned char	letter = 0;
+	static int				bit_count = 0;
+
+	(void)context;
 	if (sig == SIGUSR1)
-		ft_printf("SIGUSR1\n");
+		letter = (letter << 1) | 1;
 	else if (sig == SIGUSR2)
-		ft_printf("SIGUSR2\n");
+		letter = (letter << 1) | 0;
+	bit_count++;
+	if (bit_count == 8)
+	{
+		ft_putchar_fd(letter, 1);
+		letter = 0;
+		bit_count = 0;
+	}
+	kill(info->si_pid, SIGUSR1);
+}
+
+static void	setup_sigaction(void)
+{
+	struct sigaction	sa;
+
+	sa.sa_sigaction = handler;
+	sigemptyset(&sa.sa_mask);
+	sa.sa_flags = SA_SIGINFO;
+	sigaction(SIGUSR1, &sa, NULL);
+	sigaction(SIGUSR2, &sa, NULL);
 }
 
 int	main(void)
 {
+	setup_sigaction();
 	ft_printf("PID: %d\n", getpid());
-	signal(SIGUSR1, handler);
-	signal(SIGUSR2, handler);
 	while (1)
+	{
 		pause();
+	}
 	return (0);
 }
