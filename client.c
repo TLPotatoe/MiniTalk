@@ -6,7 +6,7 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:39:53 by tlamit            #+#    #+#             */
-/*   Updated: 2026/01/14 18:15:02 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/01/15 17:26:01 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 static void	encode_str(char *str, int pid)
 {
 	uint8_t	mask;
+	int		server;
 
 	while (*str)
 	{
@@ -22,13 +23,18 @@ static void	encode_str(char *str, int pid)
 		while (mask)
 		{
 			if ((mask & *str) && 1)
-				kill(pid, SIGUSR1);
+				server = kill(pid, SIGUSR1);
 			else
-				kill(pid, SIGUSR2);
+				server = kill(pid, SIGUSR2);
 			mask = mask >> 1;
-			pause();
+			if (server == 0)
+				pause();
+			else
+			{
+				ft_printf("Incorrect PID: Process not found.\n");
+				return ;
+			}
 		}
-		usleep(5);
 		str++;
 	}
 }
@@ -50,19 +56,16 @@ static void	setup_sigaction(void)
 
 int	main(int c, char **av)
 {
-	char	line[4096];
-	int		len;
-
-	if (c != 2)
-		return (0);
-	setup_sigaction();
-	while (1)
+	if (c != 3)
 	{
-		len = read(0, line, 4095);
-		if (len == -1)
-			return (1);
-		line[len] = 0;
-		encode_str(line, ft_atoi(av[1]));
+		ft_printf("Wrong number of arguments : ./client <pid>, <message>\n");
+		return (0);
 	}
-	return (0);
+	setup_sigaction();
+	if (ft_atoi(av[1]) == 0)
+	{
+		ft_printf("PID should be a non-nul number.\n");
+		return (0);
+	}
+	encode_str(av[2], ft_atoi(av[1]));
 }

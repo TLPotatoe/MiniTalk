@@ -6,7 +6,7 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:15:12 by tlamit            #+#    #+#             */
-/*   Updated: 2026/01/14 18:18:38 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/01/15 17:24:07 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,6 +29,7 @@ static void	handler(int sig, siginfo_t *info, void *context)
 		letter = 0;
 		bit_count = 0;
 	}
+	usleep(1);
 	kill(info->si_pid, SIGUSR1);
 }
 
@@ -48,8 +49,5 @@ int	main(void)
 	setup_sigaction();
 	ft_printf("PID: %d\n", getpid());
 	while (1)
-	{
 		pause();
-	}
-	return (0);
 }
