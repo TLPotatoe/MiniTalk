@@ -6,7 +6,7 @@
 #    By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/13 14:16:18 by fmurat--          #+#    #+#              #
-#    Updated: 2026/01/16 18:59:28 by tlamit           ###   ########.fr        #
+#    Updated: 2026/01/16 19:06:40 by tlamit           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -48,7 +48,7 @@ $(NAME_CLIENT): $(OBJS_CLIENT) $(LIBS)
 %.o: %.c
 	@$(CC) $(CFLAGS) -c $< -o $@
 
-$(LIBFT): submodule_init
+$(LIBFT):
 	$(MAKE) -C Libft_C -j
 
 clean:
@@ -63,6 +63,7 @@ fclean: clean
 
 re: fclean all
 
-submodule_init:	git submodule update --init --recursive
+init_submodule:
+	git submodule update --init --recursive
 
-.PHONY: all clean fclean re submodule_init
+.PHONY: all clean fclean re init_submodule
