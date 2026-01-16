@@ -6,7 +6,7 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:39:53 by tlamit            #+#    #+#             */
-/*   Updated: 2026/01/15 17:26:01 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/01/16 15:58:07 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ static void	encode_str(char *str, int pid)
 				return ;
 			}
 		}
+		usleep(5);
 		str++;
 	}
 }
