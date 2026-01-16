@@ -1,0 +1,3 @@
+[submodule "Libft_C"]
+	path = Libft_C
+	url = https://github.com/TLPotatoe/Libft_C.git
