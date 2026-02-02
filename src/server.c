@@ -6,11 +6,44 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:15:12 by tlamit            #+#    #+#             */
-/*   Updated: 2026/01/16 15:58:39 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/02/02 15:22:30 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "libft.h"
 #include "minitalk.h"
+
+static void	ft_minitalk_buffer(char **buff, char letter)
+{
+	char	*ret;
+	size_t	len_buff;
+
+	if (!buff)
+		return ;
+	if (*buff)
+		len_buff = ft_strlen(*buff);
+	else
+		len_buff = 0;
+	ret = malloc(sizeof(char) * (len_buff + 2));
+	if (!ret)
+		return ;
+	if (*buff)
+		ft_memcpy(ret, *buff, len_buff);
+	ret[len_buff] = letter;
+	ret[len_buff + 1] = '\0';
+	free(*buff);
+	*buff = ret;
+}
+
+static void	ft_printtalk(char letter)
+{
+	static char	*buff = NULL;
+
+	if (letter == 0)
+		ft_printf("%s", buff);
+	else
+		ft_minitalk_buffer(&buff, letter);
+}
 
 static void	handler(int sig, siginfo_t *info, void *context)
 {
@@ -25,7 +58,7 @@ static void	handler(int sig, siginfo_t *info, void *context)
 	bit_count++;
 	if (bit_count == 8)
 	{
-		ft_putchar_fd(letter, 1);
+		ft_printtalk(letter);
 		letter = 0;
 		bit_count = 0;
 	}

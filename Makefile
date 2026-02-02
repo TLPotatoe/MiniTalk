@@ -6,7 +6,7 @@
 #    By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/10/13 14:16:18 by fmurat--          #+#    #+#              #
-#    Updated: 2026/01/16 18:59:28 by tlamit           ###   ########.fr        #
+#    Updated: 2026/02/02 14:23:15 by tlamit           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,9 +14,9 @@ CC := cc
 
 SRCS_DIR    = src
 
-SRCS_SERVER = server.c
+SRCS_SERVER = $(SRCS_DIR)/server.c
 
-SRCS_CLIENT = client.c
+SRCS_CLIENT = $(SRCS_DIR)/client.c
 
 HEADER := -I includes \
 		-I Libft_C
@@ -48,7 +48,7 @@ $(NAME_CLIENT): $(OBJS_CLIENT) $(LIBS)
 %.o: %.c
 	@$(CC) $(CFLAGS) -c $< -o $@
 
-$(LIBFT): submodule_init
+$(LIBFT):
 	$(MAKE) -C Libft_C -j
 
 clean:
