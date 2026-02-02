@@ -58,4 +58,4 @@ Other available `make` commands are:
 - [Linux man page for signal](https://man7.org/linux/man-pages/man7/signal.7.html)
 
 - **AI Usage:**
-- An AI assistant was used to generate the `README.md` file based on the project's source code and structure. The AI analyzed the `Makefile`, header files, and C source files to understand the project's functionality, build process, and execution flow, and then generated this documentation according to the specified requirements.
+- An AI assistant was used to debug and analyze potential leaks and bugs.
