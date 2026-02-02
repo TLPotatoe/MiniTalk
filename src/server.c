@@ -6,7 +6,7 @@
 /*   By: tlamit <titouan.lamit@gmail.com>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/13 18:15:12 by tlamit            #+#    #+#             */
-/*   Updated: 2026/02/02 15:22:30 by tlamit           ###   ########.fr       */
+/*   Updated: 2026/02/02 18:42:11 by tlamit           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,11 @@ static void	ft_printtalk(char letter)
 	static char	*buff = NULL;
 
 	if (letter == 0)
+	{
 		ft_printf("%s", buff);
+		free(buff);
+		buff = NULL;
+	}
 	else
 		ft_minitalk_buffer(&buff, letter);
 }
